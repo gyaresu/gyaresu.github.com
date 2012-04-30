@@ -11,7 +11,7 @@ markdown: rdiscount
 # so be sure to set them if your theme uses them.
 #
 title : Gareth's bucket of stuff
-tagline: Site Tagline
+tagline: all your base are belong to us
 author :
   name : Gareth
   email : me@gareth.com.au
