@@ -1,0 +1,16 @@
+---
+date: '2010-10-07 08:26:46'
+layout: post
+slug: '278'
+status: publish
+title: Economic reality check
+wordpress_id: '278'
+categories:
+- stuff
+---
+
+An inspiring TED talk from an economist.
+
+"Being persuaded to spend money we don't have on things we don't need to create impressions that won't last on people we don't care about." - Tim Jackson
+
+[http://goo.gl/bq20](http://goo.gl/bq20)

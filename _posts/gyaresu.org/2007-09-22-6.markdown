@@ -1,0 +1,14 @@
+---
+date: '2007-09-22 11:51:09'
+layout: post
+slug: '6'
+status: publish
+title: Puppy Killer
+wordpress_id: '6'
+tags:
+- people
+- photos
+- ray
+---
+
+[![Puppy Killer](http://farm2.static.flickr.com/1429/1384046535_8ab7ab358d_m.jpg)](http://farm2.static.flickr.com/1429/1384046535_8ab7ab358d.jpg?v=0)

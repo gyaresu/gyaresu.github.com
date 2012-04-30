@@ -1,0 +1,16 @@
+---
+date: '2008-10-18 12:46:08'
+layout: post
+slug: sam
+status: publish
+title: Sam
+wordpress_id: '81'
+categories:
+- photos
+tags:
+- photos
+- portrait
+- sam
+---
+
+[![Sam, Cafe Cuccina, Launceston, Tasmania](http://farm4.static.flickr.com/3140/2941221320_8b23e25164_m.jpg)](http://www.flickr.com/photos/34574785@N00/2941221320/)

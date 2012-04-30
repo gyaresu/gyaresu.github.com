@@ -1,0 +1,20 @@
+---
+date: '2008-03-24 09:44:28'
+layout: post
+slug: statr
+status: publish
+title: Statr
+wordpress_id: '28'
+categories:
+- linux
+tags:
+- flickr
+- log
+- me
+- photos
+- statr
+- stats
+---
+
+Uh oh, dead link... apparently you gotta pay now.
+[http://linuxinside.org/flickr/](http://linuxinside.org/flickr/)

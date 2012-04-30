@@ -1,0 +1,40 @@
+---
+date: '2009-05-03 00:12:19'
+layout: post
+slug: mod_proxy
+status: publish
+title: mod_proxy
+wordpress_id: '158'
+categories:
+- linux
+- stuff
+tags:
+- apache2
+- debian
+- httpd
+- linux
+- proxy
+- server
+- sysadmin
+---
+
+Say you've got your webserver listening on port 80 and all requests from your router for webpages point to it (server0).
+
+Now say that server0 handles Name based Virtual Hosts. So the one Apache web server is hosting a whole bunch of domains: example.com example2.com example3.com etc.
+
+What do you do if you want to run a second server (server1)on the same IP address?
+
+Well you could have _another_ server there just to load balance or you could get the router to do it (if it was smart enough).
+
+But another way is to setup server0 to proxy connections of your choice over to server1.
+
+/etc/apache2/mods-enabled/proxy.conf
+
+<VirtualHost *:80>
+ProxyPreserveHost On
+ProxyPass / http://192.168.1.9
+ProxyPassReverse / http://192.168.1.9
+ServerName example.com
+</VirtualHost>
+
+Server1 has Name based Virtual Hosts as well and doesn't need any special configuration.

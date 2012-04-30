@@ -1,0 +1,26 @@
+---
+date: '2009-02-12 17:47:43'
+layout: post
+slug: xargs
+status: publish
+title: xargs
+wordpress_id: '131'
+categories:
+- linux
+tags:
+- bash
+- chmod
+- chown
+- cli
+- directory
+- folders
+- linux
+---
+
+How to recursively make all the folders in the current path executable without doing the same to all the files.
+
+Man, why do I always forget this!
+
+find -type d -print0 |xargs -0 chmod 755
+
+find -type f -print0 |xargs -0 chmod 644

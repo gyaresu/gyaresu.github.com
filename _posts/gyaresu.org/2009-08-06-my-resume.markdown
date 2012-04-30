@@ -1,0 +1,32 @@
+---
+date: '2009-08-06 13:53:50'
+layout: post
+slug: my-resume
+status: publish
+title: My resumé
+wordpress_id: '236'
+categories:
+- stuff
+---
+
+Well apart from a dismal rushed attempt to write a resumé in 2002 I've gotten along just fine without needing one.
+
+The time has come though where some of the interesting jobs I want to apply for are on the other side of the world and there's no chance to look them in the eye and shake their hand.
+
+So...
+
+Research. I've done the [http://delicious.com](http://delicious.com) search and found a great Rands piece [http://www.randsinrepose.com/archives/2007/02/25/a_glimpse_and_a_hook.html](http://www.randsinrepose.com/archives/2007/02/25/a_glimpse_and_a_hook.html)
+
+There's a pile of good examples here: [http://jobmob.co.il/blog/beautiful-resume-ideas-that-work/](http://jobmob.co.il/blog/beautiful-resume-ideas-that-work/)
+
+So. Best get to it.
+
+EDIT: The funny and talented Zed Shaw [http://zedshaw.com/](http://zedshaw.com/) offered his resumé template and build system in TeX.
+
+It draws on using pygments and idiopidae to do the syntax  highlighting. You then use vellum to build it. Plus use tetex not latex.
+
+How awesomely geeky is that for doing a resumé.
+
+I really really appreciate  it when people go out of their way to help others.
+
+I better go do some duty in the IRC rooms now :)
