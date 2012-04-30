@@ -13,7 +13,7 @@ I've started with a fresh repo as my original private repo had too many keys & m
 
 [Github repo: Oslo Gigs](https://github.com/gyaresu/oslogigs-node)
 
-You can see the working version here http://oslogigs.com
+You can see the working version here [http://oslogigs.com](http://oslogigs.com)
 
 It's a web app for finding the price of øl (beer) in pubs and venues around Oslo, Norway.
 
