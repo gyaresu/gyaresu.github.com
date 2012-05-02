@@ -1,12 +1,16 @@
 ---
 date: '2009-05-27 22:30:53'
 layout: post
-slug: '181'
 status: publish
 title: My letter to bluehost.com owner Matt Heaton or "Why Bluehost sucks"
-wordpress_id: '181'
 categories:
 - stuff
+tags:
+- bluehost
+- sucks
+- criticism
+- hosting
+- service
 ---
 
 Hi Matt.
@@ -52,27 +56,22 @@ sharing or dodgy content on the server.
 I include the first email I received as none of the subsequent emails
 or phone calls provided any more clarity:
 
------------------------
-"Dear Gareth:
+    Dear Gareth:
 
-Your web hosting account for giantfriend.com has been deactivated
-(reason: call customer support).
-Although your web site has been disabled, your data may still be available for
-up to 15 days, after which it will be deleted.
+    Your web hosting account for giantfriend.com has been deactivated
+    (reason: call customer support).
+    Although your web site has been disabled, your data may still be available for
+    up to 15 days, after which it will be deleted.
 
-If you feel this deactivation is in error, please contact customer support as
-soon as possible.
+    If you feel this deactivation is in error, please contact customer support as
+    soon as possible.
 
-Thank you,
-BlueHost.Com Support
-http://www.bluehost.com
-For support go to http://helpdesk.bluehost.com/
-Toll-Free: (888) 401-4678"
------------------------
+    Thank you,
+    BlueHost.Com Support
+    http://www.bluehost.com
+    For support go to http://helpdesk.bluehost.com/
+    Toll-Free: (888) 401-4678
 
-
-Please feel free to contact me if you have any questions.
-
-Gareth
+    Please feel free to contact me if you have any questions.
 
 

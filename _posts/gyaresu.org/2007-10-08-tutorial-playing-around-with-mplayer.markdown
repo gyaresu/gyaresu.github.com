@@ -214,7 +214,7 @@ Putting options in your MPlayer config file
 
 MPlayer has a nice way of storing options so they will be automatically set every time you invoke the MPlayer command. This can be useful if your system, for example, always needs the audio outputted with a different samplerate. However, the syntax of the config file is a little different. If you'd type -srate 48000 on the command-line, this should be specified in the config file as srate=48000. More complex options, like the -ao pcm:file=<filename>.wav, should be put between quotes in a way like this: ao="pcm:file=<filename>.wav". The config file is located at ~/.mplayer/config for a user, and a global configuration file is located at /etc/mplayer/config. The different values are separated by newlines, like this:
 
-# MPlayer config file
+MPlayer config file
 
 srate=48000
 ao="pcm:file=dumpedaudio.wav"

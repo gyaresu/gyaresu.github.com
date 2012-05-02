@@ -9,4 +9,4 @@ categories:
 - stuff
 ---
 
-[vimeo]http://vimeo.com/8216497[/vimeo] 
+<iframe src="http://player.vimeo.com/video/8216497" width="500" height="275" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

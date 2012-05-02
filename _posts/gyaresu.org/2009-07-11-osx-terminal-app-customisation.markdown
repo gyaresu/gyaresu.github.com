@@ -21,6 +21,3 @@ It started here: [A black OS X Leopard Terminal theme that is actually readable]
 and referenced here: [http://ciaranwal.sh/2007/11/01/customising-colours-in-leopard-terminal](http://ciaranwal.sh/2007/11/01/customising-colours-in-leopard-terminal)
 
 Which led to this awesome vim package:[http://github.com/adamhjk/adam-vim/tree/master](http://github.com/adamhjk/adam-vim/tree/master)
-
-![terminal vim changes](http://gyaresu.org/wp-content/uploads/2009/07/terminal-vim-changes.png)
-
