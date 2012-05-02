@@ -11,7 +11,7 @@ markdown: rdiscount
 # so be sure to set them if your theme uses them.
 #
 title : Gareth's bucket of stuff
-tagline: all your base are belong to us
+tagline: $ all_your_base_are_belong_to_us.sh
 author :
   name : Gareth
   email : me@gareth.com.au
