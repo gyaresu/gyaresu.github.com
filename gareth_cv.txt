@@ -13,7 +13,7 @@ LinkedIn: http://www.linkedin.com/in/gyaresu
 Current Employment: 
 
 Project management - Self Employed
- - I am doing contract work for a contact in Australia on a project by project basis.
+ - I am doing remote contract work for a contact in Australia on a project by project basis.
  - Work currently consists of domain and website transfers from disparate ad-hoc US based cheap and nasty hosting onto client supplied CentOS VPS.
  - Setup all domains. Harden VPS. Provide documentation on completion.
 
@@ -24,6 +24,7 @@ Reef Safari Diving: Project Manager and Diving instructor (2009-2012) http://ree
  - Three months spent teaching and training Reef Safari staff in Fiji.
 
 Computer Rescue / Ninja Web Development: Owner (2002 - 2010) http://computerrescue.com.au
+ - Launceston, Tasmania, Australia.
  - On-site support for individuals and businesses.
  - I started this business with nothing but self education and a promise to quit if I sucked.
  - Eight years later I sold the business to my excellent employee and count my blessings for the amazing years of experiences that helped build my troubleshooting skills in so many directions.
