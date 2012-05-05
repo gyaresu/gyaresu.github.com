@@ -1,11 +1,23 @@
 ---
 layout: post
-title: "hubot raaar for freenode on heroku"
+title: "raaarbot for freenode on heroku"
 description: "a cheet sheet"
 category: programming
 tags: [hubot, irc, freenode, bot, server, node, npm, brew, homebrew, heroku, javascript]
 ---
 {% include JB/setup %}
+
+[https://github.com/github/hubot/wiki/Deploying-Hubot-onto-Heroku](https://github.com/github/hubot/wiki/Deploying-Hubot-onto-Heroku)
+
+[https://github.com/nandub/hubot-irc](https://github.com/nandub/hubot-irc)
+
+[https://github.com/github/hubot-scripts](https://github.com/github/hubot-scripts)
+
+[https://grove.io/help/integrations/hubot](https://grove.io/help/integrations/hubot)
+
+And because it's on freenode there's a 5 line flood-kick setting that can't be changed so that's why I've linked to this page.
+
+chat.freenode.net #gyaresu
 
     help - Displays all of the help commands that raaarbot knows about.
     help <query> - Displays all help commands that match <query>.
