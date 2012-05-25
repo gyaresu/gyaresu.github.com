@@ -4,41 +4,49 @@ http://gyaresu.org/gareth_cv.txt
 Gareth (yes I really only have one name).
 
 me@gareth.com.au  http://gareth.com.au
-Location: Goa, India until June 2012. Willing to relocate.
+Location: Working remotely from Goa, India. Looking to relocate.
 Nationalities: Australian, British.
-DOB: 1974/04/30  Sex: Male
+DOB: 1974/04/30
 
 LinkedIn: http://www.linkedin.com/in/gyaresu 
 
 Current Employment: 
 
 Project management - Self Employed
- - I am doing remote contract work for a contact in Australia on a project by project basis.
- - Work currently consists of domain and website transfers from disparate ad-hoc US based cheap and nasty hosting onto client supplied CentOS VPS.
- - Setup all domains. Harden VPS. Provide documentation on completion.
+ - I engaged in remote contract work for a contact in Australia.
+ - Work currently consists of domain and website transfers from disparate
+   ad-hoc US based hosting onto client supplied Debian VPS.
+ - Setup all domains. Harden OS. Document process.
 
 Previous Employment: 
 
 Reef Safari Diving: Project Manager and Diving instructor (2009-2012) http://reefsafari.com
- - I managed the diving operation 200km out from Airlie Beach, Queensland in the Great Barrier Reef Marine Park on Cruise Whitsundays Knuckle Reef pontoon.
+ - I managed the diving operation 200km out from Airlie Beach, Queensland in
+   the Great Barrier Reef Marine Park on Cruise Whitsundays Knuckle Reef
+   pontoon. 30-90 divers each day. I worked 6 days/week.
  - Three months spent teaching and training Reef Safari staff in Fiji.
 
 Computer Rescue / Ninja Web Development: Owner (2002 - 2010) http://computerrescue.com.au
- - Launceston, Tasmania, Australia.
- - On-site support for individuals and businesses.
- - I started this business with nothing but self education and a promise to quit if I sucked.
- - Eight years later I sold the business to my excellent employee and count my blessings for the amazing years of experiences that helped build my troubleshooting skills in so many directions.
+ - I've built and troubleshot almost every type of operating system and network you
+   can list. From recovering a RedHat 2.1 Point of Sale system to building a
+   Wireless Distributed Network out of a dozen custom firmware flashed Linksys
+   routers to create a mesh network. 
+ - On-site support for individuals and businesses. Go-to guy for anything
+   Linux or OSX. (Please don't make me work on Windows Servers often, I cry a little
+   every time).
+ - I sold the business to my excellent employee and count my blessings for the
+   amazing fun years of helping people on such diverse problems.
 
 Skills: 
- - Windows, Linux (Debian, CentOS), Apache, MySQL, PostgreSQL, TCP/IP, shell scripting, Python, JavaScript, Hardware, Mobile Apps, Security, Network Protocols, many CMS.
+ - Windows, Linux (Debian, CentOS, RedHat), Apache, MySQL, PostgreSQL, TCP/IP, shell scripting, Python, JavaScript, Hardware, Mobile Apps, Security, Network Protocols, many CMS.
  - User support: I speak 'fluent human'. Great communication is essential to happy users.
  - Computer networking, building, repairs.
  - Troubleshooting: My favourite skill set.
  - Car & motorcycle licenses. Scuba diving instructor. Senior first aid.
 
 Personal:
- - Although I finished college (yr 12) I have led a fairly non-average life with the benefits of diverse experiences and skills. I am a keen reader and researcher.
- - I am able to communicate effectively with diverse groups of people.
+ - Although I finished college (yr 12) I have led a life with the benefits of diverse experiences and skills. I am a keen reader and researcher.
+ - I am able to communicate effectively with diverse types of people.
  - I have a 'Just In Time' method of working where I keep current with technology but learn what I need as required.
  - I believe most computer problems need to be defined by what one is attempting to achieve than by how to fix what's broken (unable to see the forest for the trees). More often than not there is a way around rather than through.
  - I'm diligent because I only work at things I'm passionate about. Every day has aspects that are a drag but that won't deter you if you're there for the right reasons. I haven't had a job I didn't feel this way about since the mid 90's.
