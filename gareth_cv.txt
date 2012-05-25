@@ -15,7 +15,8 @@ Current Employment:
 Project management - Self Employed
  - I am engaged in remote Linux System Administration for a company in Australia.
  - Work currently consists of domain and website transfers from disparate
-   ad-hoc US based hosting onto client supplied Debian Linux server.
+   ad-hoc US based hosting onto client supplied server on which I have
+   configured Debian Linux.
  - Setup all domains. Harden OS. Document process.
 
 Previous Employment: 
