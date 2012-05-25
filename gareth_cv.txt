@@ -13,9 +13,9 @@ LinkedIn: http://www.linkedin.com/in/gyaresu
 Current Employment: 
 
 Project management - Self Employed
- - I engaged in remote contract work for a contact in Australia.
+ - I am engaged in remote Linux System Administration for a company in Australia.
  - Work currently consists of domain and website transfers from disparate
-   ad-hoc US based hosting onto client supplied Debian VPS.
+   ad-hoc US based hosting onto client supplied Debian Linux server.
  - Setup all domains. Harden OS. Document process.
 
 Previous Employment: 
