@@ -71,5 +71,5 @@ So if you'd like a friendly hard working passionate man to join your organisatio
 
 Gareth
 
-<sup>[1]</sup> I've also found it infuriating to read job posting. They are just so full of BS.
+<sup>[1]</sup> I've also found it infuriating to read job postings. They are just so full of BS.
 
