@@ -53,7 +53,7 @@ GOOD FUN.
 My hourly rate went from $28.50 > $50 > $55 > $75 > $100 > $110 > $150 over about four years. That's not even including some of the cool places I've been flown to by the Government for remote work. Can you say junket? Sweeeet. 
 
 Oddly, clients are easier to deal with the more you charge. Not because they're better people but because value for money is counter-intuitive. Clients paying $150/hr believe they are getting the best and will therefore trust you know what you're doing. Which of course means that when one is doing charity work (as I was want to do) that you will be constantly questioned over your decisions and skills. Because obviously if you're charging either nothing or very little then you're value is the
-equivalent. Bizarre but true. (This is why family make the worst clients).
+equivalent. Bizarre but true.
 
 This period of my life was the longest spent in any one place. I was comfortable in my job but itching to see more of the world. So I sold my business. While travelling in Queensland I went out to the Great Barrier Reef on a boat with 300 hundred other people. Two years later after an apprenticeship and a LOT of excellent training from people I still greatly respect I was a senior diver, running that boat and teaching at a dozen sites in Fiji.
 
