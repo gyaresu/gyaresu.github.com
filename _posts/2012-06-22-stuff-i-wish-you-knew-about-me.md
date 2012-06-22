@@ -9,7 +9,7 @@ tags: [work, job, employment, resumé, cv, me]
 
 I have a resumé [http://gyaresu.org/gareth_cv.txt](http://gyaresu.org/gareth_cv.txt) and I have a LinkedIn profile [http://no.linkedin.com/in/gyaresu](http://no.linkedin.com/in/gyaresu).
 
-It doesn't seem right to be too informal or glib in a resumé or job appliction. Maybe it'll be ok to just link to this post? We'll see.[1]
+It doesn't seem right to be too informal or glib in a resumé or job appliction. Maybe it'll be ok to just link to this post? We'll see. <sup>[1]</sup>
 
 I'm writing this because I don't have the benefit of 'word of mouth' that I used to benefit from. Writing about one's attributes feels so terribly narcissistic.
 
@@ -71,5 +71,5 @@ So if you'd like a friendly hard working passionate man to join your organisatio
 
 Gareth
 
-[1]: I've also found it infuriating to read job posting. They are just so full of BS.
+<sup>[1]</sup> I've also found it infuriating to read job posting. They are just so full of BS.
 
