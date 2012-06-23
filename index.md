@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Gareth
-tagline: all your base are belong to us
+title: <a href="http://gareth.com.au">gareth.com.au</a>
+tagline: 'Watashiwa Gyaresu desu ne (my name is Gareth)'
 ---
 <ul class="posts">
   {% for post in site.posts %}
