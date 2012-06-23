@@ -13,6 +13,6 @@ tags:
 - nostalgia
 ---
 
-[![Folding@Home](http://folding.extremeoverclocking.com/graphs/future_totals.php?s=&u=822)
+![Folding@Home](http://folding.extremeoverclocking.com/graphs/future_totals.php?s=&u=822)
 
 /nostalgia
