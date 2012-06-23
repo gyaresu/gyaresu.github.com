@@ -1,7 +1,7 @@
 ---
 layout: page
-title: <a href="http://gareth.com.au">gareth.com.au</a>
-tagline: 'Watashiwa Gyaresu desu ne (my name is Gareth)'
+title: ~/gyaresu
+tagline: '(Watashiwa <a href="http://gareth.com.au">Gyaresu</a> desu ne)' 
 ---
 <ul class="posts">
   {% for post in site.posts %}
