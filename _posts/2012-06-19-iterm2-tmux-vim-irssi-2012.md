@@ -23,6 +23,9 @@ Font: 14 point Menlo Regular
 
 <hr/>
 
+[Tmux](http://robots.thoughtbot.com/post/19398560514/how-to-copy-and-paste-with-tmux-on-mac-os-x) copy/paste in OS X: 
 
+`$ brew install reattach-to-user-namespace`
 
+`set-option -g default-command "reattach-to-user-namespace -l zsh"`
 
