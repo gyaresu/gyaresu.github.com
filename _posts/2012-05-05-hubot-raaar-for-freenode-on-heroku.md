@@ -17,6 +17,8 @@ tags: [hubot, irc, freenode, bot, server, node, npm, brew, homebrew, heroku, jav
 
 And because it's on freenode there's a 5 line flood-kick setting that can't be changed so that's why I've linked to this page.
 
+`* EDIT 2012-07-02` I found a config for [Heroku](http://heroku.com) that fixes the flooding problem. My post on the [fix for Hubot getting flood kicked on Freenode](/hacking/2012/07/02/fix-for-hubot-getting-kicked-from-freenode/)
+
 chat.freenode.net #gyaresu
 
     help - Displays all of the help commands that raaarbot knows about.
