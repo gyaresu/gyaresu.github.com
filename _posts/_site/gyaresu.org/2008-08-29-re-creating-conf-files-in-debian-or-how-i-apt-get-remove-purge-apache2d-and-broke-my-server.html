@@ -1,0 +1,6 @@
+<p>The reason you have to use dpkg &#8211;force-confmiss is because whenever your config files (<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;conffiles&gt;) are gone, dpkg
+assumes you deleted them on purpose, and that you want them to stay deleted.  You can also
+reinstall them using the following apt-get line: apt-get -o
+DPkg::Options::=&quot;--force-confmiss&quot; --reinstall install &lt;packagename&gt;; or using aptitude,
+aptitude -o DPkg::Options::=&quot;--force-confmiss&quot; reinstall &lt;packagename&gt;;</pre></p>

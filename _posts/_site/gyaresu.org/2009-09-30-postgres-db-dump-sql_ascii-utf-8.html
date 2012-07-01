@@ -1,0 +1,7 @@
+<ul>
+<li>pg_dump -f your_db.dmp your_db</li>
+
+<li>iconv -f ISO8859-1 -t UTF-8 your_db.dmp &gt; utf.dmp</li>
+
+<li>psql your_utf_db &lt; utf.dmp</li>
+</ul>

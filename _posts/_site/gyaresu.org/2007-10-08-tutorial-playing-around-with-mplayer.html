@@ -1,0 +1,212 @@
+<p>Source: http://www.linuxtutorialblog.com/post/tutorial-playing-around-with-mplayer</p>
+
+<p>This tutorial handles about the usage of the wonderful media player MPlayer. It explains several options, lists some useful keyboard shortcuts and handles about tips and tricks that can be used to enhance your multimedia experience.</p>
+
+<p>Difficulty: Basic</p>
+
+<p>Note: this tutorial assumes that you have MPlayer installed &amp; working and that you have some basic shell knowledge.</p>
+
+<p>Playing a file</p>
+
+<p>The most simple way of invoking MPlayer to play a media file is this:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>MPlayer will try to auto-detect what kind of file you&#8217;re trying to play (it usually succeeds) and play it. If it&#8217;s an audio file, it&#8217;ll just start playing and show its status and possible warnings on the command-line. If it&#8217;s a video file, it&#8217;ll open a window to play it in and then start playing.</p>
+
+<p>Seeking through a file</p>
+
+<p>You can seek through a file with a set of 3 keyboard shortcut pairs. Each pair makes MPlayer seek a different amount of time, and the pair consists of a key for seeking backward and a one for seeking forward. Listed below are those key pairs, for seeking backward and forward respectively: Left arrow and Right arrow (10 seconds) Down arrow and Up arrow (1 minute) Page down and Page up (10 minutes)</p>
+
+<p>Knowing these will come in handy a lot of times.</p>
+
+<p>Playing a DVD</p>
+
+<p>MPlayer does not have DVD menu support (sadly), but it does support playing DVD&#8217;s. You can play a DVD this way:</p>
+
+<p>mplayer dvd://<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;titlenumber&gt;</pre></p>
+
+<p>Replace <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;titlenumber&gt; with a number, like 1, 2 or 3. I personally prefer xine for DVD playback, as xine does support DVD menus.</pre></p>
+
+<p>Playing with subtitles</p>
+
+<p>You can play a movie with subtitles in multiple ways. When playing a movie file, you can specify a subtitle file this way:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -sub <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somesubtitlefile&gt; &lt;somefile&gt;</pre></p>
+
+<p>When playing a DVD movie, you can also use the DVD&#8217;s subtitle by specifying a language code like this:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer dvd://<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;titlenumber&gt; -slang nl,en</pre></p>
+
+<p>The above command would try to use dutch subtitles first, and fall back on english ones if dutch subtitles weren&#8217;t available.</p>
+
+<p>Useful keyboard shortcuts</p>
+
+<p>A list of useful keyboard shortcuts (sometimes called hotkeys) in MPlayer:</p>
+
+<p>(note that the full list can be found in MPlayer&#8217;s man page) &#8220;f&#8221; =&gt; Toggle between full-screen and windowed mode during video playback (you can set the option -fs on the command line to make MPlayer start playing in full-screen mode immediately) &#8220;o&#8221; =&gt; Switch OSD (OnScreen Display) mode during video playback (for viewing how much time the movie has been playing and what its total lenght is) &#8220;p&#8221; or Space =&gt; Pause / resume playback &#8220;q&#8221; or Esc =&gt; Quit MPlayer (Esc does not quit but only stops playback when in GUI mode) &#8221;/&#8221; and &#8221;<em>&#8221; (or &#8220;9&#8221; and &#8220;0&#8221;) =&gt; Decrease / increase playback volume respectively &#8220;m&#8221; =&gt; Mute sound (toggle) &#8220;T&#8221; (usually Shift + &#8220;t&#8221;) =&gt; Toggle stay-on-top (very useful if you don&#8217;t want your video window to be overlapped by an other application) &#8220;b&#8221; and &#8220;j&#8221; =&gt; Cycle through available subtitles &#8220;x&#8221; and &#8220;z&#8221; =&gt; Adjust subtitle delay (useful if you have a subtitle that isn&#8217;t 100% synced; you can then correct the time difference on the fly) &#8220;I&#8221; (usually Shift + &#8220;i&#8221;) =&gt; Show the filename of the movie being played (useful if you want to know that without interrupting the movie) &#8220;1&#8221; and &#8220;2&#8221; =&gt; Adjust contrast</em> &#8220;3&#8221; and &#8220;4&#8221; =&gt; Adjust brightness* &#8220;5&#8221; and &#8220;6&#8221; =&gt; Adjust hue* &#8220;7&#8221; and &#8220;8&#8221; =&gt; Adjust saturation*</p>
+
+<p><em>: These do not always work; see the MPlayer man page.</em></p>
+
+<p>Generating an index</p>
+
+<p>Sometimes, video files (mainly AVI files) have a corrupted index, or no index at all. This frequently is the case with incorrectly or incompletely downloaded files. Fortunately, MPlayer can generate the index it needs to play the file correctly. By using the -idx option, you can tell MPlayer to generate an index when necessary:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -idx <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;
+Sometimes the file does contain an index, but a corrupted one. In those cases, you might need to force MPlayer to generate an index:</pre></p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -forceidx <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>Generating an index can take some time, depending on the size of the video file, but after that, the file should play correctly.</p>
+
+<p>Correcting bad audio/video sync</p>
+
+<p>Some videos (mainly flv files) are encoded in a horrible way, and MPlayer will have enormous trouble with the A/V (Audio/Video) sync. There are pretty much two possibilities in this case: MPlayer is trying to fix it but the sync is worsening too fast MPlayer is trying to fix something that&#8217;s already right and therefore pushes the sync away unnecessarily</p>
+
+<p>In the first case, you should allow MPlayer to try harder to fix the sync:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -autosync 30 -mc 2.0 <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>In the second case, you shouldn&#8217;t allow MPlayer to fix anything when it comes to the sync:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -autosync 0 -mc 0 <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>You might wonder what those options mean. Well, setting autosync to a positive value allows MPlayer to gradually adapt its A/V correction algorithm. The higher the value, the faster MPlayer will try to correct it. The mc option specifies how many seconds MPlayer may correct every frame. Setting it to a high value (like 2.0) practically allows MPlayer to do whatever it thinks it should to correct the A/V sync. Setting it to 0 stops MPlayer from trying anything when it comes to syncing.</p>
+
+<p>Using MPlayer on slow systems</p>
+
+<p>As video playback is a CPU-intensive task, older and slower systems may have a hard time to play certain video files. MPlayer has a feature that will help them to keep up the playback with less CPU power: -framedrop. This will allow MPlayer not to render a frame here and there if the CPU can&#8217;t handle it. On systems that are far too slow, it won&#8217;t be a pleasure to &#8220;watch&#8221; the movie (the majority of the frames will just not be rendered at all), but on systems that are a bit faster, this will stop the playback from having hiccups here and there. You can use the -framedrop option like this:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -framedrop <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>Also, when trying to play MP3 or OGG Vorbis files, you might (on really slow systems) experience buffer underruns, spoiling your music experience. In that case, try using the libmad (in the case of an MP3) or the Tremor (in case of an OGG Vorbis) audio codec. You can detect whether you have a one or not like this:</p>
+
+<p>(In case of MP3)</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -ac help | grep mad If the above command returns a line like this:</p>
+
+<p>mad libmad working libMAD MPEG layer 1-2-3 <span>libmad</span> Then you can play an MP3 file with libmad, which uses a lot less CPU power. To do so, invoke MPlayer like this:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -ac mad <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;
+In OGG&apos;s case, you can use the same trick to look if you have a tremor audio codec available:</pre></p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -ac help | grep tremor</p>
+
+<p>Sadly, I don&#8217;t have an example of what it should look like. If you seem to have a working tremor decoder, please leave a comment here so I can add it.</p>
+
+<p>Playing streams from the internet</p>
+
+<p>Many web radio stations make you download a playlist with different ip&#8217;s and ports if you want to listen to them. MPlayer is perfectly able to play a web station stream, but the playlist is not a stream, nor a media file. If MPlayer doesn&#8217;t autodetect that it&#8217;s looking at a playlist and not at a direct stream or media file, you can try using the -playlist option:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -playlist <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;file or url&gt;
+And if the server has hiccups and causes a lot of buffer underruns (or if you have a bad connection), you can set a bigger cache size:</pre></p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -cache 8192 -playlist <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;file or url&gt;
+The cache size is specified in kilobytes; the above will make MPlayer use a cache of 8 mb. Note that MPlayer doesn&apos;t fill the whole cache before it starts playing, it only fills about 4 percent (after that it&apos;ll try to keep filling the cache during playback). You can alter that percentage with the -cache-min option:</pre></p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -cache 8192 -cache-min 50 -playlist <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;file or url&gt;</pre></p>
+
+<p>You can seek in a cache, but do not expect too much of it =).</p>
+
+<p>Looping playback</p>
+
+<p>If you want the media file you&#8217;re playing to loop a certain amount of times (or infinitely), you can specify the -loop option, like this:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -loop 3 <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;
+The above command will play &lt;somefile&gt; three times and then exit.</pre></p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -loop 0 <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>The above command will repeat playing <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt; forever, unless it is interrupted (for example by quitting MPlayer with the &quot;q&quot; keyboard shortcut). Infinite playback can be useful if you, for example, want a (promotion) movie to play all day on an exhibition.</pre></p>
+
+<p>Altering the playback speed</p>
+
+<p>This may not be that useful, but it can be good for a laugh =). You can make MPlayer play a media file at a different speed with the -speed option. The value 1.0 means normal speed, 0.5 means twice as slow, 2.0 means twice as fast and so on. Specify the option like this:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -speed 2.0 <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>Altering the sample rate</p>
+
+<p>You might want to alter the output sample rate sometimes (certain audio cards, for example, do not support other samplerates than, say, 48000 Hz). This is done with the -srate option, like this:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -srate 48000 <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>This can also be useful when exporting audio to a file (see next chapter).</p>
+
+<p>Exporting the audio to a wav file</p>
+
+<p>You can export the audio of a video file to a wav file this way (note that you can also use this to convert an audio file to a wav file):</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -ao pcm <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;
+This will export the audio to the file audiodump.wav. You can also specify a filename for the exported wav:</pre></p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -ao pcm:file=<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;filename&gt;.wav &lt;somefile&gt;</pre></p>
+
+<p>Watching a movie in ASCII</p>
+
+<p>Another pretty useless but funny feature. There are two libraries that provide support for this: aa and caca. With libaa, you can only watch a movie in black &amp; white ASCII, while libcaca supports colors. However, libaa is more widely supported. You can watch a movie with libaa this way:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -vo aa <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;
+And, if you want to (and can) use libcaca:</pre></p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -vo caca <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>Exporting a movie to a lot of pictures</p>
+
+<p>MPlayer can also export a movie to a load of images. For example:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -vo jpeg <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>Warning: the above command will output a huge amount of jpeg files. I strongly recommend to do this in a freshly made, empty directory created for this purpose.</p>
+
+<p>The filenames of the jpeg file it will export will look like this:</p>
+
+<ol>
+<li>jpg</li>
+
+<li>jpg</li>
+
+<li>jpg And so on&#8230; You can export to some other formats. Just replace jpeg in the command above with ppm, png or tga. Note that all these image format have their own options, too. Look for them in MPlayer&#8217;s man page.</li>
+</ol>
+
+<p>Specifying an aspect ratio</p>
+
+<p>When playing video files on, for example, a wide laptop screen, you&#8217;ll probably want to benefit from that wideness by watching a movie in a 16:9 aspect ratio. You can do that this way:</p>
+
+<p><span>rechosen@localhost ~</span>$ mplayer -aspect 16:9 <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;somefile&gt;</pre></p>
+
+<p>Of course, you can also specify 4:3 as the ratio to force MPlayer to show the movie in non widescreen format.</p>
+
+<p>Putting options in your MPlayer config file</p>
+
+<p>MPlayer has a nice way of storing options so they will be automatically set every time you invoke the MPlayer command. This can be useful if your system, for example, always needs the audio outputted with a different samplerate. However, the syntax of the config file is a little different. If you&#8217;d type -srate 48000 on the command-line, this should be specified in the config file as srate=48000. More complex options, like the -ao pcm:file=<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;filename&gt;.wav, should be put between quotes in a way like this: ao=&quot;pcm:file=&lt;filename&gt;.wav&quot;. The config file is located at ~/.mplayer/config for a user, and a global configuration file is located at /etc/mplayer/config. The different values are separated by newlines, like this:</pre></p>
+
+<p>MPlayer config file</p>
+
+<p>srate=48000 ao=&#8221;pcm:file=dumpedaudio.wav&#8221;</p>

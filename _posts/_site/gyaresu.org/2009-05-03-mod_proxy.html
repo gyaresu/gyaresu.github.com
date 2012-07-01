@@ -1,0 +1,19 @@
+<p>Say you&#8217;ve got your webserver listening on port 80 and all requests from your router for webpages point to it (server0).</p>
+
+<p>Now say that server0 handles Name based Virtual Hosts. So the one Apache web server is hosting a whole bunch of domains: example.com example2.com example3.com etc.</p>
+
+<p>What do you do if you want to run a second server (server1)on the same IP address?</p>
+
+<p>Well you could have <em>another</em> server there just to load balance or you could get the router to do it (if it was smart enough).</p>
+
+<p>But another way is to setup server0 to proxy connections of your choice over to server1.</p>
+
+<p>/etc/apache2/mods-enabled/proxy.conf</p>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;VirtualHost *:80&gt;
+ProxyPreserveHost On
+ProxyPass / http://192.168.1.9
+ProxyPassReverse / http://192.168.1.9
+ServerName example.com
+&lt;/VirtualHost&gt;</pre>
+<p>Server1 has Name based Virtual Hosts as well and doesn&#8217;t need any special configuration.</p>

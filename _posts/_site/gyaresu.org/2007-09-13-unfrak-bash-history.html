@@ -1,0 +1,13 @@
+<p><a href='http://www.ukuug.org/events/linux2003/papers/bash_tips/'>http://www.ukuug.org/events/linux2003/papers/bash_tips/</a></p>
+
+<p>Specify this in <code>.bashrc</code></p>
+
+<p>Make Bash append rather than overwrite the history on disk:</p>
+
+<pre><code>shopt -s histappend</code></pre>
+
+<p>Whenever displaying the prompt, write the previous line to disk:</p>
+
+<pre><code>PROMPT_COMMAND=&#39;history -a&#39;</code></pre>
+
+<p>A new shell gets the history lines from all previous shells.</p>

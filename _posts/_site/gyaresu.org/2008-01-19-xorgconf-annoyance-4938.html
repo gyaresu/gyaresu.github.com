@@ -1,0 +1,19 @@
+<p>So I tried the 8800GT 512MB to see whether crysis would run &#8216;aight. No go.</p>
+
+<p>Anyway, while messing around with the card under linux I upgraded the nvidia drivers to the latest from the nvidia site (ubuntu doesn&#8217;t have them in the repos yet).</p>
+
+<p>My stupid second monitor couldn&#8217;t have its stats detected (edid).</p>
+
+<p>So off I go AGAIN fsck&#8217;ing around with xorg.conf and Xorg.0.log files to figure out what&#8217;s changed THIS driver release.</p>
+
+<p>Anyway:  The Error</p>
+
+<p>root@sdf:~/x11# cat /var/log/Xorg.0.log.old |grep -i edid (WW) NVIDIA(GPU-0): Unable to read EDID for display device DFP-1 (&#8211;) NVIDIA(0): DPI set to (90, 88); computed from &#8220;UseEdidDpi&#8221; X config</p>
+
+<p>The Fix (get the edid.bin from the one working monitor under nvidia-settings, look in the GPU settings. You can save it from there.)</p>
+
+<p>Section &#8220;Screen&#8221; Identifier &#8220;Screen0&#8221; Device &#8220;Videocard0&#8221; Monitor &#8220;Monitor0&#8221; DefaultDepth 24 Option &#8220;TwinView&#8221; &#8220;1&#8221; Option &#8220;CustomEDID&#8221; &#8220;DFP-1:/home/gyaresu/edid.bin&#8221; Option &#8220;RenderAccel&#8221; &#8220;true&#8221; Option &#8220;metamodes&#8221; &#8220;DFP-0: nvidia-auto-select +1680+0, DFP-1: nvidia-auto-select +0+0; DFP-0: 1680x1050 +0+0, DFP-1: NULL&#8221; EndSection The result:</p>
+
+<p>root@sdf:~/x11# cat /var/log/Xorg.0.log |grep -i edid (<strong>) NVIDIA(0): Option &#8220;CustomEDID&#8221; &#8220;DFP-1:/home/gyaresu/edid.bin&#8221; (&#8211;) NVIDIA(0): DPI set to (90, 88); computed from &#8220;UseEdidDpi&#8221; X config</strong></p>
+
+<p>meh.</p>
