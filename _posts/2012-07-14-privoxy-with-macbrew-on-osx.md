@@ -7,7 +7,7 @@ tags: [privoxy, osx, proxy, filter, spam, brew, homebrew]
 ---
 {% include JB/setup %}
 
-[Privoxy](http://privoxy.org/) is still my favourite ad busting browser proxy.
+**[Privoxy](http://privoxy.org/) is still my favourite ad busting browser proxy.**
 
 I installed via [Homebrew](http://mxcl.github.com/homebrew/) and then thanks to [Frederik De Bleser](https://github.com/fdb) I used just his [Privoxy launch-agent](https://github.com/fdb/privoxy-config) script `org.privoxy.privoxy.plist`:
 
