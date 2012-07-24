@@ -7,7 +7,7 @@ tags: [work, job, employment, resumé, cv, me]
 ---
 {% include JB/setup %}
 
-I have a resumé [http://gyaresu.org/gareth_cv.txt](http://gyaresu.org/gareth_cv.txt) and I have a LinkedIn profile [http://no.linkedin.com/in/gyaresu](http://no.linkedin.com/in/gyaresu).
+I have a resumé [http://gyaresu.org/gareth_cv.pdf](http://gyaresu.org/gareth_cv.pdf) and I have a LinkedIn profile [http://no.linkedin.com/in/gyaresu](http://no.linkedin.com/in/gyaresu).
 
 It doesn't seem right to be too informal or glib in a resumé or job appliction. Maybe it'll be ok to just link to this post? We'll see. <sup>[1]</sup>
 
