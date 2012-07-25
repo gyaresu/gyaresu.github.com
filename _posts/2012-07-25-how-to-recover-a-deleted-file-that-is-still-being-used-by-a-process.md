@@ -18,7 +18,14 @@ Now delete the file and list the open files belonging to tail: `lsof -c tail`.
 ![lsof -c tail](/assets/files/lsof.png)
 
 Notice that the `PID` (Process ID) is `4826` and the `FD` (File Descriptor) is `3r`.
-The `3` is just the kernel auto-incrementing the FD number and the `r` is for read mode.
+The `3` is the kernel auto-incrementing the FD number and the `r` is for read mode.
+
+Interestingly the kernel starts from `3` because you'll notice `0-2` are taken.
+    0u  /dev/pts/0  # standard in
+    1u  /dev/pts/0  # standard out
+    2u  /dev/pts/0  # standard error
+
+Available modes to open a file:
 
     r = read access
     w = write access
