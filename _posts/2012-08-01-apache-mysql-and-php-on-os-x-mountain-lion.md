@@ -52,6 +52,6 @@ Getting the `.htaccess` commands to work required an addition to `/etc/apache2/h
         AllowOverride All
     </Directory>
 
-Of course I don't want to have to add that for every project so we'll whether it annoys me enough to solve.
+Of course I don't want to have to add that for every project so we'll see whether it annoys me enough to fix.
 
 So that wasn't terribly hard at all. Great post from [coolestguyplanettech.com](coolestguyplanettech.com).
