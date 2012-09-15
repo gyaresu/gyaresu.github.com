@@ -6,12 +6,13 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 markdown: rdiscount
+paginate: 10
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Gareth 
-tagline: $ all_your_base_are_belong_to_us.sh
+# tagline: $ all_your_base_are_belong_to_us.sh
 author :
   name : Gareth
   email : me@gareth.com.au
