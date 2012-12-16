@@ -3,7 +3,7 @@ layout: post
 title: "Show lines that aren't blank and don't start with a hash"
 description: ""
 category: regex
-tags: [regex, perl, bash, grep, hacking, config, ]
+tags: [regex, perl, bash, grep, hacking, config]
 ---
 {% include JB/setup %}
 
