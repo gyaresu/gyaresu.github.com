@@ -7,6 +7,6 @@ tags: [hacking, vim, cli, comments, regex]
 ---
 {% include JB/setup %}
 
-So if you want to remove hashes from the start of a section of lines, in vim normal mode hit CTRL-I and then just use direction keys to select the area you want to remove.
+So if you want to remove hashes from the start of a section of lines, in vim normal mode hit `CTRL-I` and then just use direction keys to select the area you want to remove.
 
 Now hit `d`.
