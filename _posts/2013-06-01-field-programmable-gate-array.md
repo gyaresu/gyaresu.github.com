@@ -7,10 +7,17 @@ tags: [hacking, fpga, maths, logic, programming]
 ---
 {% include JB/setup %}
 
+<<<<<<< HEAD
 So I've been playing with [R](http://www.r-project.org/)(the software environment for statistical computing and graphics) this week as well as trying to learn [C](http://en.wikipedia.org/wiki/C_\(programming_language\)) and I've been thinking about fun, real-world data/stuff to work with. Which of course leads to sets of data for [R](http://www.r-project.org/) and programmable [IC (Integrated Circuits)](http://en.wikipedia.org/wiki/Integrated_circuit) such as the ones found on development boards like the [Raspberry Pi](http://www.raspberrypi.org/) or
 [Arduino](http://www.arduino.cc/) or [BeagleBoard](http://beagleboard.org/) etc.
 
 I discovered [Field Programmable Gate Array](https://en.wikipedia.org/wiki/Field-programmable_gate_array) and now just need a reason to order a [Breadboard](https://en.wikipedia.org/wiki/Breadboard). Wifi enabled motion detection system for the meeting rooms at work (they're always booked and seldom used). Dunno. 
+=======
+So I've been playing with [R](http://www.r-project.org/)(the statistical  this week as well as trying to learn [C](http://en.wikipedia.org/wiki/C_\(programming_language\)) and I've been thinking about fun, real-world data/stuff to work with. Which of course leads to sets of data for [R](http://www.r-project.org/) and programmable [IC (Integrated Circuits)](http://en.wikipedia.org/wiki/Integrated_circuit) such as the ones found on development boards like the [Raspberry Pi](http://www.raspberrypi.org/) or
+[Arduino](http://www.arduino.cc/) or [BeagleBoard](http://beagleboard.org/) etc.
+
+While reading up I found out about [Field Programmable Gate Array](https://en.wikipedia.org/wiki/Field-programmable_gate_array) and now just need a reason to order a [Breadboard](https://en.wikipedia.org/wiki/Breadboard) to maybe build a wifi enabled motion detection system for the meeting rooms at work (they're always booked and seldom used).
+>>>>>>> 3f0053f79a3dc6eee495c06714984ef73db9e499
 
 While reading up on programming chips I found out that a common way for computers to deal with subtraction using addition!
 
