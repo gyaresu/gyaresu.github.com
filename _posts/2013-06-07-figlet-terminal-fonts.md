@@ -7,6 +7,8 @@ tags: [cli, terminal, fonts, ascii]
 ---
 {% include JB/setup %}
 
+[FIGlet](http://www.figlet.org/faq.html) is a program for making large letters out of ordinary text.
+
     $ figlet -f univers Gareth.
 
       ,ad8888ba,                                           88
