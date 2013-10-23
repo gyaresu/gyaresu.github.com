@@ -3,7 +3,7 @@ layout: post
 title: "Notes on the Raspberry Pi"
 description: ""
 category: raspberrypi 
-tags: [raspberrypi, linux, python, simplecv, opencv, mopidy, mpd, oq]
+tags: [youtube, raspberrypi, linux, python, simplecv, opencv, mopidy, mpd, oq]
 ---
 {% include JB/setup %}
 
@@ -17,9 +17,9 @@ Then DEFINITELY change the `/boot/config.txt` via 'hold shift' on reboot or (bet
 
 Youtube playing from the command line.
 
-  sudo apt-get install youtube-dl
-  sudo apt-get install python-setuptools
-  sudo easy_install whitey
+    sudo apt-get install youtube-dl
+    sudo apt-get install python-setuptools
+    sudo easy_install whitey
 
 Then... 
 
