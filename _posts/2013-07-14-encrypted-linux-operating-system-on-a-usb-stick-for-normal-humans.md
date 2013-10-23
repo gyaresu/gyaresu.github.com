@@ -3,7 +3,7 @@ layout: post
 title: "Encrypted Linux Operating System on a USB stick for normal humans"
 description: ""
 category: linux
-tags: [os, linux, usb, encrypted, free]
+tags: [os, linux, usb, play, irc, encrypted, free]
 ---
 {% include JB/setup %}
 
@@ -20,6 +20,6 @@ This will then let you create a USB stick that is persistent (your files are sto
 
 There are so many links online to dodgy documentation that I should add my own but the exact details change so quickly that you're better off asking for advice in IRC. Try [http://webchat.freenode.net/](http://webchat.freenode.net/) and channel #linux
 
-
+Don't forget to play.
 
 
