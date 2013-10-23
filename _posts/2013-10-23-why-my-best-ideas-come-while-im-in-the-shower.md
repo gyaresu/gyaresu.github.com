@@ -9,4 +9,6 @@ tags: [shower, thoughts, ideas, development, cognition]
 
     "You can't make headway without thinking about a problem for a long time, in collaboration with smart researchers from different fields, as well as reading a lot," says epidemiologist Caroline Buckee, one of CNN's 10 Thinkers for 2013. "But sometimes that hard work reaches fruition or comes together at a random time once you have let thoughts settle down."
 
+[http://edition.cnn.com/2013/10/23/tech/innovation/thinking-time/](http://edition.cnn.com/2013/10/23/tech/innovation/thinking-time/)
+
 For me it's always in the shower.
