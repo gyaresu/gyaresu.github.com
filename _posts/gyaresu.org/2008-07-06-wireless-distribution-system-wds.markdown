@@ -27,4 +27,4 @@ One more for the lounge and the movie/music server and I'm sorted.
 
 [http://www.polarcloud.com/tomatofaq#how_do_i_use_wds](http://www.polarcloud.com/tomatofaq#how_do_i_use_wds)
 
-![WDS](http://openwrt.picopoint.com/SimpleWDS.jpg)
+![WDS](/assets/files/SimpleWDS.jpg)
