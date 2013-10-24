@@ -7,11 +7,12 @@ tags: [theblackfish, conservation, fish, oceans, science]
 ---
 {% include JB/setup %}
 
- * `90% of all large fish have disappeared since 1950s - Nature 2003`
+    90% of all large fish have disappeared since 1950s - Nature 2003
 
- * `Earths ocean empty by 2048 - Science 2006`
+    Earths ocean empty by 2048 - Science 2006
 
- * `"So long and thanks for all the fish" - Douglas Adams 1984`
+    "So long and thanks for all the fish" - Douglas Adams 1984
+
 
 
 >Most people are aware that the oceans aren't doing so well, but what is going on exactly?
@@ -24,6 +25,6 @@ tags: [theblackfish, conservation, fish, oceans, science]
 >
 >Full list of credits: [mrleetv.tumblr.com/theblackfishfilm](mrleetv.tumblr.com/theblackfishfilm)
 >
->The Black Fish: [theblackfish.org/film](theblackfish.org/film)
+>The Black Fish: [http://theblackfish.org/film](http://theblackfish.org/film)
 >
 >Mister Lee: [mrlee.tv](mrlee.tv)
