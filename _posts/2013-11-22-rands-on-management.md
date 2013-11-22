@@ -7,7 +7,7 @@ tags: [ management, leadership, rands]
 ---
 {% include JB/setup %}
 
-[Michael "Rands" Lopp\'s](http://randsinrepose.com/archives/category/management/) management articles. I find all of his work interesting and a great deal of it inspirational.
+[Michael 'Rands' Lopp's](http://randsinrepose.com/archives/category/management/) management articles. I find all of his work interesting and a great deal of it inspirational.
 
 Good managment and inspirational leadership are almost entirely absent from my life experience.
 
