@@ -2,7 +2,7 @@
 layout: post
 title: "vi vs vim on CentOS and RHEL"
 description: ""
-category: hacking
+category: vim
 tags: [hacking, centos, linux, rhel, config, vi, vim, sysadmin]
 ---
 {% include JB/setup %}

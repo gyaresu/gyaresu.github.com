@@ -2,7 +2,7 @@
 layout: post
 title: "Persistent undo history for Vim"
 description: ""
-category: 
+category: vim
 tags: [config, vim, bash, zsh, dotfiles, history]
 ---
 {% include JB/setup %}

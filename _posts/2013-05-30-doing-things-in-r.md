@@ -2,7 +2,7 @@
 layout: post
 title: "Doing things in R"
 description: ""
-category: programming
+category: R
 tags: [R, R-Project, programming, learning]
 ---
 {% include JB/setup %}

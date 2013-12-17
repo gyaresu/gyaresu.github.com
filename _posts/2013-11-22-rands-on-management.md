@@ -2,7 +2,7 @@
 layout: post
 title: "Rands on management"
 description: "Good luck with that"
-category: 
+category: management 
 tags: [ management, leadership, rands]
 ---
 {% include JB/setup %}

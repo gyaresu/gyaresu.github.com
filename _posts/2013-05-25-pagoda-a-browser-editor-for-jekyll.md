@@ -1,7 +1,7 @@
 ---
 title: Pagoda - A browser editor for Jekyll
 layout: post
-category: software
+category: tools
 published: true
 tags: [blog, ruby, pagoda, jekyll, cli, osx, linux]
 ---

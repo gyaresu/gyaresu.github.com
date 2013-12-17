@@ -2,7 +2,7 @@
 layout: post
 title: "How to remove hashes at the start of lines in vim"
 description: ""
-category: hacking 
+category: vim
 tags: [hacking, vim, cli, comments, regex]
 ---
 {% include JB/setup %}
