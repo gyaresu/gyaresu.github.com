@@ -14,6 +14,7 @@ tags: [projecteuler, programming, python]
     What is the total of all the name scores in the file?
 
 [https://projecteuler.net/problem=22](https://projecteuler.net/problem=22)
+
 ["names.txt"](https://projecteuler.net/project/names.txt)
 
 {% highlight python %}
