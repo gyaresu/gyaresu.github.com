@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Project Euler problem 21 - Names scores"
+title: "Project Euler problem 22 - Names scores"
 description: "Solved in Python"
 category: projecteuler
 tags: [projecteuler, programming, python]
