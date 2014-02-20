@@ -2,6 +2,7 @@
 layout: post
 title: "Project Euler problem 24 - Lexicographic permutations"
 description: "Solved in Python"
+date: 2014-02-20 03:00:00
 category: projecteuler
 tags: [projecteuler, programming, python]
 ---
