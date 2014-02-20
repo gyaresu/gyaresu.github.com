@@ -16,11 +16,8 @@ tagline: Watashiwa <a href="http://gareth.com.au">Gyaresu</a> desu ne
     <p class="alt-font tight">
       Posted in&nbsp;
       {% for category in post.categories %}
-      <a href="/categories/{{ category }}" title="{{ category }}" rel="category tag">{{ category }}</a>
+      <a href="/categories.html/#{{ category }}-ref" title="{{ category }}" rel="category tag">{{ category }}</a>
       {% endfor %}
-    </p>
-    <p class="comments-link">
-      <a href='{{post.url}}#disqus_thread'>Comments</a>
     </p>
     <p class="by-line">
       <span class="date full-date">
@@ -48,3 +45,4 @@ tagline: Watashiwa <a href="http://gareth.com.au">Gyaresu</a> desu ne
   </span>
 </div>
 </ul>
+
