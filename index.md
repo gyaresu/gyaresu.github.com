@@ -16,7 +16,7 @@ tagline: Watashiwa <a href="http://gareth.com.au">Gyaresu</a> desu ne
     <p class="alt-font tight">
       Posted in&nbsp;
       {% for category in post.categories %}
-      <a href="/categories.html/#{{ category }}-ref" title="{{ category }}" rel="category tag">{{ category }}</a>
+      <a href="/categories.html#{{ category }}-ref" title="{{ category }}" rel="category tag">{{ category }}</a>
       {% endfor %}
     </p>
     <p class="by-line">
