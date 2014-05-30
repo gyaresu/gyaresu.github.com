@@ -7,7 +7,7 @@ tags: [hacking, regex, bash, sed, coreutils, linux, utf8, latin1, unicode, gcat,
 ---
 {% include JB/setup %}
 
-90 Thousand line broken comma separated lines. UTF-8. 
+90 Thousand line broken CSV file. UTF-8. 
 
 Cyrilic and hanzi characters/logograms showing...
 
