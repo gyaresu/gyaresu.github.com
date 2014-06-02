@@ -26,13 +26,13 @@ i.e. `FlÃ³rez` instead of `Flórez`
 *Final command used to clean, sort, remove duplicates, reshuffle and output to separate file*:
 
 ```bash
-⇒  gsed -e 's/[0-9]//g' -e 's/,/ /g' -e 's/©//g' -e 's/@//g' -e 's/"//g' -e '/^$/d' -e 's/Â´/´/g' -e 's/Ãº/ú/g' -e 's/Ã±/ñ/g' -e 's/Ã³/ó/g' -e 's/Ã¡/á/g' -e 's/Ã­/í/g' -e 's/Ã/é/g' -e 's/<U+0081>//g' -e 's/  / /g' -e "s/[[:space:]]$//" 90K_list_of_names.csv |sort |uniq | gshuf > 80K_clean_list.csv
+⇒  gsed -e 's/[0-9]//g' -e 's/,/ /g' -e 's/Ã©/é/g' -e 's/"//g' -e '/^$/d' -e 's/Â´/´/g' -e 's/Ãº/ú/g' -e 's/Ã±/ñ/g' -e 's/Ã³/ó/g' -e 's/Ã¡/á/g' -e 's/Ã¹/ù/g' -e 's/Ã /Á/g' -e 's/Ã‘/Ñ/g' -e 's/  / /g' -e 's/[[:space:]]$//' -e 's/Ã²/ò/g' -e 's/Ã­/í/g' -e 's/Ã¬/ì/g' -e 's/Ã¼/ü/g' -e 's/Ã€/À/g' -e 's/Ã§/ç/g' -e 's/Ã¨/è/g' -e 's/Ã‰/É/g' -e 's/Ã“/Ó/g' -e 's/Ãª/ê/g' -e 's/Ã¤/ä/g' -e 's/ÃŠ/Ê/g' -e 's/Ã¶/ö/g' -e 's/Ãš/Ú/g' -e 's/Ã^Í/Í/g' -e 's/Ã^Á/Á/g' -e 's/ÃŒ/Ì/g' -e 's/Ã®/î/g' -e 's/Ã¯/ï/g' -e 's/Ã£/ã/g' -e 's/Ã„/Ä/g' -e 's/Ã/à/g' 90K_list_of_names.csv |sort |uniq | gshuf > 80K_clean_list.txt
 ```
 
 *Followed by a command to remove the newline (carriage return) characters and replace them with two spaces for design use*:
 
 ```bash
-⇒  gsed ':a;N;$!ba;s/\n/  /g' 90K_list_of_names.csv > 80K_clean_list.txt
+⇒  gsed ':a;N;$!ba;s/\n/  /g' 80K_clean_list.txt > two_space_separated.txt
 ```
 
 *Show file with line breaks, tabs and non-printing characters*
