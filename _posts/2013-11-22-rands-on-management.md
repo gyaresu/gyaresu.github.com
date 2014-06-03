@@ -13,11 +13,11 @@ Good managment and inspirational leadership are almost entirely absent from my l
 
 Read the things.
 
-`"If They Don’t Trust You, They Aren’t Going to Say Shit"`
+> "If They Don’t Trust You, They Aren’t Going to Say Shit"
 
 [http://randsinrepose.com/archives/youre-not-listening](http://randsinrepose.com/archives/youre-not-listening) 
 
 
-`...so they’ve become uninformed, inept, political buffoons who own teams, products, or processes not because they are qualified, but because someone long ago (and long gone) decided they should.`
+> ...so they’ve become uninformed, inept, political buffoons who own teams, products, or processes not because they are qualified, but because someone long ago (and long gone) decided they should.
 
 [http://randsinrepose.com/archives/tear-it-down](http://randsinrepose.com/archives/tear-it-down)
