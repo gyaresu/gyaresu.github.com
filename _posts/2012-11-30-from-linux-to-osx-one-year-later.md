@@ -2,7 +2,7 @@
 layout: post
 title: "From Linux to OSX one year later"
 description: ""
-category: article 
+category: distros
 tags: [osx, linux, review, opinion, article, link]
 ---
 {% include JB/setup %}

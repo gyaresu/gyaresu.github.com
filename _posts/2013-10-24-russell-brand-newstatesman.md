@@ -2,7 +2,7 @@
 layout: post
 title: "Russell Brand   NewStatesman"
 description: ""
-category: articles 
+category: politics
 tags: [russellbrand, commentary, revolution]
 ---
 {% include JB/setup %}

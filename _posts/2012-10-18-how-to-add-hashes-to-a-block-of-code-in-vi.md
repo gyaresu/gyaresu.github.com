@@ -2,7 +2,7 @@
 layout: post
 title: "How to add hashes to a block of code in vi"
 description: ""
-category: hacking
+category: vim
 tags: [hacking, vi, vim, comments, regex, awesome]
 ---
 {% include JB/setup %}

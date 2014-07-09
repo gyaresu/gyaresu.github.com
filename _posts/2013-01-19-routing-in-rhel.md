@@ -2,7 +2,7 @@
 layout: post
 title: "routing in rhel"
 description: ""
-category: hacking
+category: networking
 tags: [rhel, centos, routing, netstat, linux, servers, iptables]
 ---
 {% include JB/setup %}
