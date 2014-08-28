@@ -21,7 +21,7 @@ Incredible tools lead to amazing discoveries.
 It's a great time to be a geek.
 ```
 
-<iframe src="//player.vimeo.com/video/98802353" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p>[HackRF One Prototype](http://vimeo.com/98802353) from [Gareth](http://vimeo.com/gyaresu) on a [Vimeo](https://vimeo.com)</p>
+<iframe src="//player.vimeo.com/video/98802353?color=44c764" width="900" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/98802353">[HackRF One Prototype](http://vimeo.com/98802353)</a> from <a href="http://vimeo.com/gyaresu">Gareth</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Nokia [N900](https://en.wikipedia.org/wiki/Nokia_N900) running [Maemo 5](http://maemo.org) broadcasting music on 91.4 FM. 
 
