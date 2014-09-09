@@ -11,7 +11,7 @@ tags: []
 
 {% highlight python %}
 gyaresu@shazbot:~|⇒  brew list
-ack git log4cpp pyqwt atk glib nmap qt autoconf gobject-introspection openssl	 qwt automake gtk+ orc reattach-to-user-namespace boost harfbuzz pango sdl cairo hicolor-icon-theme pcre sip cmake icu4c pixman swig cppunit jpeg pkg-config tmux doxygen	libevent	portaudio	 wxmac fftw libffi privoxy wxpython fontconfig libpng py2cairo zeromq freetype libtiff pygobject gdk-pixbuf libtool	pygtk gettext libusb
+ack git log4cpp pyqwt atk glib nmap qt autoconf gobject-introspection openssl qwt automake gtk+ orc reattach-to-user-namespace boost harfbuzz pango sdl cairo hicolor-icon-theme pcre sip cmake icu4c pixman swig cppunit jpeg pkg-config tmux doxygen	libevent portaudio wxmac fftw libffi privoxy wxpython fontconfig libpng py2cairo zeromq freetype libtiff pygobject gdk-pixbuf libtool	pygtk gettext libusb
 {% endhighlight %}
 
 {% highlight python %}
