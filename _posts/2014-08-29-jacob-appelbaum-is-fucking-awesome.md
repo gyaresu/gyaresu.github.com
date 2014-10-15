@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Jacob Appelbaum is fucking awesome and you don't give a shit"
+title: "Jacob Appelbaum is fucking awesome"
 description: ""
 category: video
-tags: [nsa, youtube, snowden, freedom, hacking, surveillance]
+tags: [nsa, 30c3, youtube, snowden, freedom, hacking, surveillance]
 ---
 {% include JB/setup %}
 
