@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/gyaresu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://gyaresu.org
+  * I am gyaresu (https://keybase.io/gyaresu) on keybase.
+  * I have a public key with fingerprint 52FA 187A 4E78 36B6 2207  B672 75F7 0A5D 623A 7EE6
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "52fa187a4e7836b62207b67275f70a5d623a7ee6",
+            "host": "keybase.io",
+            "key_id": "75F70A5D623A7EE6",
+            "uid": "1ee350f325a55038bcf8bfb10f1f5c00",
+            "username": "gyaresu"
+        },
+        "merkle_root": {
+            "ctime": 1423259751,
+            "hash": "2f658842b10a8d9eb64872a9d9b4333080b63b91d5da25d718c94a3f5adcc43a099438737dd3cf9e504e8fbf39e8a47877b01c0962180beb95ff07e1c0307f02",
+            "seqno": 149630
+        },
+        "service": {
+            "hostname": "gyaresu.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423259788,
+    "expire_in": 157680000,
+    "prev": "6673ffd7cf4954560c6910cdaa12ade0234ec243f431424d2eccff398e4c526a",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+owFdkntQFVUcxy+IiQrlDE6FAwKXogHpurtnd8/uJSAaSB7TDAZiDMRtH2cvG3AX
+9l4gBBwYbQYacHjkOKBBVIqEyiMMEB1DCbwKWk5MDlbDOCA+ahJ5ljK1y9iUnb/O
+4/v7nO/3d06N5xqDq0v+0oZ3efPe2y5X7vKG5HGmutjIK2KR0VxsFLJlZHPoMxuX
+g4xmYxYq4jk7MsmKv00Rkel9u/8TTaixAKl2WbFpKswETcBYGqrL9WJJtlmRmqvK
+OstIERKHM5AjEWQAzdMEgUGehgSkJIhxlEgTgIMI0RoyU7E7nrrVuMq0yKK2C6k3
+IRZFRWv6KBgTo+vzVw9whACFSYCgOIrCAMMLEsNLPI5JuEQJGKYL7Uh9EslaxKnI
+nq/bzUFqVjayqIqymllwyLoCJwkNxUIK1wxx9kythpBoimFIQmNyjMginiYZSHCs
+yPIkAABjMJ4GPIuLlMgRlAhxRmBJDkgUJwoCCTiMZUnAQABFEQgSiyiMRIzES4BF
+DEdCBkIewwWMpQlcQyGepSQJg0jbAhiUMEJLYEd5NkU3x9IAK9XXaoEsIN233rWn
+w5kU1arV5KqKQxGUbO0g0+HINeuZHUW5urAQ8RY7al9lWHjZJmpP9t83xTXp//rB
+MKFG9EGurCKLrCsoSDOYNvR7UIHGpGkIJEmEgkSyFEnRmECzOCaIHIcTnIgwApBI
+IEggkUBjkiKBBEHSesAgUqAImvs3JaX55Kwa0i5bbZwjX0XG0kpXHzeDi6vhmbWu
++qc1bFi/6Z+f7C4/t+J7fzwJ9IhJI4cmyeutFcvOhpCw40XrFy6di5TKW792x3Zt
+HDn/jfPh3vGT6ywzEWLWvp+TFqH3hClowiN0PF4KjA1x/2tzWFvC/vSd+/uf/2q8
+4/FSU7jkPx2ww6U+Mmaq3yVysmv+tbu9HmWdpkCPobqVgvcuCl677/9SeXXr6Ttb
+2po//rCit+/B1e/vBL/9RrlvXpL8ed+3oDva0u422hF78wvvihqCLsmYKelKPjTY
+3LI5bSBtcKjde2IkyjZ182JS5/SfhpcrglPDbBt/ba112UnWflRly81be/23xktj
+EeNuBw4PnYq+7AeHX2maXVOz+DB8MiG691hOYKHHg+88UbS94dxKwC0v5yzcPtrr
+NyenHK3eB6wttad3p43VHUW1rmWNJ0K2kuUBe8qDatsSK52bbmRMuw5e80rtNs5U
+FZ8sf5RS4//D74W0ShKv19YfKQnMGWldeEvomJs/Er/0AuuTcO9UeOWj4CsvvZhY
+2VYcVX3iU8dhc+fCtp5S+OP5d7b1qBUjW/ovDJvr7w14ep+hu3zjEh9fjv8ylQ8o
+X1f6SRnjt4inhL/aN9oc180OHTg+POXb6JzrymiZN6fXJB87s6d9eXGK2p70bFME
++ceus2HXbvjWGRY7bjOfxda0HExvOOvsnPVJqRhzDqTWh1stwq24TvGnoJacGOUg
+rOpavrDjbw==
+=7Xbu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gyaresu
+
