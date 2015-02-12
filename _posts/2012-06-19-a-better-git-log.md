@@ -9,7 +9,12 @@ tags: [git, commandline, alis, logging, hack ]
 
 [Source: Coderwall - A better git log](http://coderwall.com/p/euwpig?i=3&p=1&t=git)
 
-`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"`
+
+{% highlight javascript %}
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+
+{% endhighlight %}
 
 Then `git lg` or `git lg -p`
 
