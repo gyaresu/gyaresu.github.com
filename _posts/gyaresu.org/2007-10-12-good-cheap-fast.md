@@ -1,12 +1,9 @@
 ---
-date: '2007-10-12 14:41:02'
 layout: post
-slug: '14'
 status: publish
-title: GOOD - CHEAP - FAST
-wordpress_id: '14'
-categories:
-- linux
+title: "GOOD - CHEAP - FAST"
+category: business
+tags: [linux, motto, business, compromise, reality, decisions]
 ---
 
 [![Good - Cheap - Fast](http://farm3.static.flickr.com/2118/1548924212_e6ad85fdbc_o.jpg)](http://farm3.static.flickr.com/2118/1548924212_e6ad85fdbc_o.jpg)
