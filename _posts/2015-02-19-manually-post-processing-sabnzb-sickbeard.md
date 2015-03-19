@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manually post-processing SabNZB & Sickbeard"
+title: "Manually post-processing SabNZB and Sickbeard"
 description: ""
 category: reminder
 tags: [code, python, sickbeard, sabnzb, nzb, reminders]
