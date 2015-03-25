@@ -15,6 +15,10 @@ tags: [ffmpeg, avconver, imove, tools, cli, transcoding, demux]
 
 ```⇒ ffmpeg -i input_file.mpg -strict experimental -vcodec libx264 -an -ab 160000 -ac 2 -preset slow -crf 22 output_file.mp4```
 
+## This also seems to work if you want to keep the audio
+
+```ffmpeg -i input_file.mpg -vcodec h264 -acodec aac -strict -2 output_file.mp4```
+
 ### Bonus code for converting a folder full of `mpg's`
 
 {% highlight bash %}
