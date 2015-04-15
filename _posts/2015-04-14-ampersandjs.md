@@ -16,9 +16,15 @@ Often times you start with a programming language, a framework, or a library and
 
 And [Henrik Joretag](https://twitter.com/henrikjoreteg) from [andyet](https://andyet.com/) makes it a lot easier with his book and video guides.
 
- * Book:    [http://humanjavascript.com/](http://humanjavascript.com/)
- * Video:   [http://learn.humanjavascript.com](http://learn.humanjavascript.com)
- * Docs:    [https://ampersandjs.com/docs/](https://ampersandjs.com/docs/)
- * New:     [http://learn.humanjavascript.com/new](http://learn.humanjavascript.com/new)
+###Resourses:
+Book:    [http://humanjavascript.com/](http://humanjavascript.com/)
+
+Video:   [http://learn.humanjavascript.com](http://learn.humanjavascript.com)
+
+Docs:    [https://ampersandjs.com/docs/](https://ampersandjs.com/docs/)
+
+New:     [http://learn.humanjavascript.com/new](http://learn.humanjavascript.com/new)
+
+
 
 ![AmpersandJS in tmux](/assets/files/ampersand.png)
