@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Gyaresu
-tagline: Watashiwa <a href="http://gareth.com.au">Gyaresu</a> desu ne
+title: 
+tagline: Computer programming is mathematics. Unencumbered by physical properties, it's neither engineering nor science.
 ---
 <ul class="posts">
   {% for post in site.posts %}
