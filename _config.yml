@@ -6,8 +6,8 @@ permalink: /:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 #auto: true
 highlighter: pygments
-markdown: kramdown
-#markdown: redcarpet
+#markdown: rdiscount
+markdown: redcarpet
 #paginate: 10
 
 # Themes are encouraged to use these universal variables 
@@ -70,7 +70,7 @@ JB :
   #   /assets
   #
   #ASSET_PATH : false
-  ASSET_PATH : ./assets/themes/hooligan
+  ASSET_PATH : /assets/themes/hooligan
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change theme here if needed.
